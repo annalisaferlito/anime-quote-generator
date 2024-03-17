@@ -1,0 +1,54 @@
+body {
+    background-image: url("https://wallpapers-clan.com/wp-content/uploads/2023/11/anime-girl-underwater-with-fishes-desktop-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; /* Imposta il body come flex container */
+    justify-content: center; /* Allinea gli elementi figli orizzontalmente al centro */
+    align-items: center; /* Allinea gli elementi figli verticalmente al centro */
+    height: 100vh; /* Imposta l'altezza del body a 100% dell'altezza dello schermo */
+    margin: 0; /* Rimuove il margine predefinito del body */
+}
+
+div {
+    border: 1px solid white;
+    border-radius: 40px;
+    width: 60vw;
+    height: 65vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    backdrop-filter: blur(30px);
+    display: flex; /* Imposta il div come flex container */
+    flex-direction: column; /* Imposta il layout a colonna */
+    justify-content: center; /* Allinea il contenuto orizzontalmente al centro */
+    align-items: center; /* Allinea il contenuto verticalmente al centro */
+    box-shadow:  20px 20px 60px #bebebe13,
+             -20px -20px 60px #ffffff2f;
+}
+
+button {
+    border: 1px solid white;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1rem; 
+    font-size: 1.5rem;
+}
+button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    box-shadow:  20px 20px 60px #bebebe13,
+             -20px -20px 60px #ffffff2f;
+}
+h1 {
+    color: rgb(170, 49, 100);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 3rem;
+}
+p {
+    font-size: 2rem;
+    padding: 4rem;
+    font-weight: 600;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
